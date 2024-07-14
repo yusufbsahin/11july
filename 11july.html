@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="11july.css">
+  <link rel="icon" type="image/x-icon" href="favicon(1).ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+<h1>CSS Practices</h1>
+<p>A summary examples of things I have learned on 11 July</p>
+
+<h2>A table that change its colors when you hover your mause over them</h2>
+<table id="customers">
+  <tr>
+    <th>F1 Team</th>
+    <th>Team Principle</th>
+    <th>Base</th>
+  </tr>
+  <tr id="mercedes">
+    <td>Mercedes AMG</td>
+    <td>Toto Wolf</td>
+    <td>Germany</td>
+  </tr>
+  <tr id="ferrari">
+    <td>Scuderia Ferrari</td>
+    <td>Frederic Vasseur</td>
+    <td>Italy</td>
+  </tr>
+  <tr id="redbull">
+    <td>RedBull</td>
+    <td>Christian Horner</td>
+    <td>Austria</td>
+  </tr>
+  <tr id="mclaren">
+    <td>McLaren</td>
+    <td>Andrea Stella</td>
+    <td>UK</td>
+  </tr>
+  <tr id="alpine">
+    <td>Alpine</td>
+    <td>Bruno Famin</td>
+    <td>France</td>
+  </tr>
+  <tr id="haas">
+    <td>Haas</td>
+    <td>Ayao Komatsu</td>
+    <td>USA</td>
+  </tr>
+  <tr id="racingbulls">
+    <td>RacingBulls</td>
+    <td>Laurent Mekies</td>
+    <td>Italy</td>
+  </tr>
+  <tr id="sauber">
+    <td>Sauber</td>
+    <td>Andreas Seidl</td>
+    <td>Switzerland</td>
+  </tr>
+  <tr id="williams">
+    <td>Williams</td>
+    <td>James Vowles</td>
+    <td>UK</td>
+  </tr>
+  <tr id="astonmartin">
+    <td>Aston Martin</td>
+    <td>Mike Krack</td>
+    <td>UK</td>
+  </tr>
+</table>
+
+<h1>Styling Lists With Colors</h1>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Turnip</li>
+</ol>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Turnip</li>
+</ul>
+
+<h3>Difference between display:none and visiblity: hidden</h3>
+
+<div class="imgbox" id="imgbox1">Box 1<br>
+  <img src="Untitled.jpeg" alt="Kapadokya" style="width:100%">
+  <button onclick="removeElement()">Remove</button>
+</div>
+
+<div class="imgbox" id="imgbox2">Box 2<br>
+  <img src="Istanbul-Travel-Guide-8-scaled.jpg" alt="İstanbul" style="width:100%">
+  <button onclick="changeVisibility()">Hide</button>
+</div>
+
+<div class="imgbox">Box 3<br>
+  <img src="harput.jpg" alt="Harput" style="width:100%">
+  <button onclick="resetElement()">Reset All</button>
+</div>
+
+<script>
+function removeElement() {
+  document.getElementById("imgbox1").style.display = "none";
+}
+
+function changeVisibility() {
+  document.getElementById("imgbox2").style.visibility = "hidden";
+}
+
+function resetElement() {
+  document.getElementById("imgbox1").style.display = "block";
+  document.getElementById("imgbox2").style.visibility = "visible";
+}
+</script>
+
+
+
+<div id="overflowTest">
+  <h2>CSS Overflow</h2>
+
+İstinye Üniversitesi, Liv Hospital, “Medical Park  ve VM Medical Park olmak üzere üç ayrı hastane markasını tek çatı altında buluşturan MLP Care Grubu’nun 29 yıllık bilgi ve birikiminin devamı olarak, 21. Yüzyıl Anadolu Vakfı tarafından 2015 yılında kurulmuştur.
+
+Kendisini fark yaratacak eğitim ve araştırmaya adamış başarılı akademik kadrosu ile İstinye Üniversitesi, öğrencilerine var olan bilgiyi aktararak kendi alanlarında güçlü bir donanım sağlarken, eğitim ve araştırma performansı ile yeni bilgi üretilmesine katkıda bulunarak Türkiye’nin ve dünyanın seçkin üniversiteleri arasında yer almayı hedeflemektedir.
+
+Öğrenci odaklı eğitim anlayışını üniversitenin tüm süreçlerinde uygulayan İstinye Üniversitesi, bilim ve araştırma merkezi olma vizyonu doğrultusunda, öğretim üyelerinin araştırmaları ile bilimin sınırlarını genişletmeyi, bilimsel gelişmelerden edinilen bulguları toplumun refahı için uygulamaya geçirmeyi ve bununla birlikte topluma kaliteli ve erişilebilir sağlık hizmeti sunmayı amaçlamaktadır. Öğretim, araştırma ve toplum hizmetleri etkinliklerini evrensel standartlarda yürüterek, öğrencilerine geniş tabanlı bir bilgi yelpazesinin yanı sıra, teknoloji ve sanatı da kapsayan bir öğrenme ve ilerleme ortamı sunar.
+
+Öğrencilerini liderlik yetenekleri ile donatılmış, bilimin gücüne güvenen, dünyadaki gelişmeleri yakından takip eden, eleştirel düşünebilen; insani ve etik değerlere sahip, kendini geliştirme ve yaratıcılığını kullanma alışkanlığı edinmiş bireyler olarak yetiştirir. İstinye Üniversitesi, geleceğin yetkin, yaratıcı ve ileri görüşlü bireylerini bünyesinde yetiştirerek toplumumuzun sosyal, kültürel, ekonomik, bilimsel ve teknolojik gelişiminde önemli bir rol oynamayı ve insanlığın ilerlemesine katkıda bulunmayı hedeflemektedir.
+</div>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,140 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e10600;
+  color: white;
+}
+
+#mercedes:hover {
+  background-color: #C8CCCE;
+  color: #00f5d0;
+}
+
+#ferrari:hover {
+  background-color: #ef1a2d;
+  color: #FFF200;
+}
+
+#redbull:hover {
+  background-color: #00162b;
+  color: #EC1845;
+}
+
+#mclaren:hover {
+  background-color: #FF8700;
+  color: white;
+}
+
+#alpine:hover {
+  background-color: #0090FF;
+  color: white;
+}
+
+#haas:hover {
+  background-color: #FFFFFF;
+  color: #C92D2D;
+}
+
+#racingbulls:hover {
+  background-color: #003F87;
+  color: #F0E442;
+}
+
+#sauber:hover {
+  background-color: #9B0000;
+  color: white;
+}
+
+#williams:hover {
+  background-color: #005AFF;
+  color: white;
+}
+
+#astonmartin:hover {
+  background-color: #006F62;
+  color: white;
+}
+
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+
+body {
+  background-image: url("Screenshot from 2024-07-11 13-26-53.png"), url("F1 Formula 1.png"), url("1_6df15c2e-7475-4b2e-839e-3826bc5c02f6.jpg");
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: right top, calc(100% - 200px) top, left top;
+  background-attachment: fixed, scroll, scroll;
+  background-size: 200px auto, 400px auto, auto;
+  margin-right: 200px;
+}
+
+.imgbox {
+  float: left;
+  text-align: center;
+  width: 240px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.imgbox:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: pink;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: purple;
+}
+
+#overflowTest {
+  background: powderblue;
+  color: black;
+  padding: 15px;
+  width: 50%;
+  height: 100px;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
